@@ -1,29 +1,33 @@
-**SORRY, nvmw is no longer maintained. If someone wants to keep maintained, contact me by [email](mailto://hakobera@gmail.com) or [twitter](https://twitter.com/hakobera).**
+**nvmw 原作者已不维护该项目， 原地址：https://github.com/hakobera/nvmw **
 
-Node Version Manager for Windows
+**经过简单修复之后，nvmw可正常使用**
+
+Windows 下 NodeJs 管理版本管理器
 ================================
-nvmw is a simple Node Version Manager for Windows.
+nvmw 是一个 windows 平台下简单的 Node 版本管理器
 
-Prerequisites
+系统需求
 -------------
 
-You'll need to install the following software before installing nvmw:
+你必须在安装nvmw前先安装以下工具: 
 
 - [git](http://code.google.com/p/msysgit/ "msysgit")
 - [python 2.7+](http://python.org/download/) only if you need Node < 0.8
 
-Installation
+安装
 ------------
 
-Clone this repository:
+克隆该项目:
 
-    git clone git://github.com/hakobera/nvmw.git "%HOMEDRIVE%%HOMEPATH%\.nvmw"
+    git clone git://github.com/eyasliu/nvmw.git "%HOMEDRIVE%%HOMEPATH%\.nvmw"
 
-To activate nvmw, add nvmw directory to your PATH environment variable
+要激活nvmw，需要添加nvmw的地址到 PATH 环境变量
 
     set "PATH=%HOMEDRIVE%%HOMEPATH%\.nvmw;%PATH%"
 
-Usage
+**注：该方法只针对当前命令行有效，要永久生效请 `右键计算机 -> 属性 -> 高级系统设置 -> 环境变量  ` 中添加 PATH 变量地址 **
+
+使用方法
 -----
 
     Usage:
@@ -58,7 +62,7 @@ Mirror node.js/io.js/npm dist
 
 To use a mirror of the node binaries, set `$NVMW_NODEJS_ORG_MIRROR`.
 
-e.g.: In China, you can use these mirrors:
+e.g.: 在中国，请使用淘宝镜像源:
 
 ```bash
 set "NVMW_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node"
