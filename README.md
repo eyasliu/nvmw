@@ -1,8 +1,8 @@
-**nvmw 原作者已不维护该项目， 原地址：https://github.com/hakobera/nvmw **
+**nvmw 原作者已不维护该项目， 原地址：https://github.com/hakobera/nvmw**
 
 **经过简单修复之后，nvmw可正常使用**
 
-Windows 下 NodeJs 管理版本管理器
+Windows 平台 NodeJs 管理版本管理器
 ================================
 nvmw 是一个 windows 平台下简单的 Node 版本管理器
 
@@ -25,7 +25,7 @@ nvmw 是一个 windows 平台下简单的 Node 版本管理器
 
     set "PATH=%HOMEDRIVE%%HOMEPATH%\.nvmw;%PATH%"
 
-**注：该方法只针对当前命令行有效，要永久生效请 `右键计算机 -> 属性 -> 高级系统设置 -> 环境变量  ` 中添加 PATH 变量地址 **
+**注：该方法只针对当前命令行有效，要永久生效请 `右键计算机 -> 属性 -> 高级系统设置 -> 环境变量  ` 中添加 PATH 变量地址**
 
 使用方法
 -----
